@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Art </title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: white;
+    }
+
+    .container {
+      width: 600px;
+      height: 600px;
+      position: relative;
+      border: 5px solid black; 
+    }
+
+    
+    .block {
+      position: absolute;
+      border: 5px solid black; 
+    }
+
+    .red {
+      background-color: red;
+      top: 0;
+      left: 0;
+      width: 60%;
+      height: 40%;
+    }
+
+    .blue {
+      background-color: blue;
+      top: 0;
+      left: 60%;
+      width: 40%;
+      height: 60%;
+    }
+
+    .yellow {
+      background-color: yellow;
+      top: 40%;
+      left: 0;
+      width: 40%;
+      height: 60%;
+    }
+
+    .white {
+      background-color: white;
+      top: 40%;
+      left: 40%;
+      width: 60%;
+      height: 60%;
+    }
+
+    
+    .black-line-vertical {
+      background-color: black;
+      top: 0;
+      left: 40%;
+      width: 5px; 
+      height: 100%;
+    }
+
+    .black-line-horizontal {
+      background-color: black;
+      top: 40%;
+      left: 0;
+      width: 100%;
+      height: 5px; 
+    }
+
+    .black-line-vertical-second {
+      background-color: black;
+      top: 0;
+      left: 75%;
+      width: 5px;
+      height: 100%;
+    }
+
+    .black-line-horizontal-second {
+      background-color: black;
+      top: 60%;
+      left: 0;
+      width: 100%;
+      height: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="block red"></div>
+    <div class="block blue"></div>
+    <div class="block yellow"></div>
+    <div class="block white"></div>
+
+    <div class="block black-line-vertical"></div>
+    <div class="block black-line-horizontal"></div>
+    <div class="block black-line-vertical-second"></div>
+    <div class="block black-line-horizontal-second"></div>
+  </div>
+</body>
+</html>
